@@ -6,6 +6,7 @@ import tsilwindcss from '@tailwindcss/vite';
 export default defineConfig({
   plugins: [
     react(),
-    tsilwindcss()
+    tsilwindcss(),
   ],
+  base: "/videoplayer",
 })
